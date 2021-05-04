@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "524224857239",
+    "project_id": "sherigcare-d1527",
+    "storage_bucket": "sherigcare-d1527.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524224857239:android:b4cf9245c7e6a153c7d5d2",
+        "android_client_info": {
+          "package_name": "edu.gcit.sherigcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524224857239-g32gqhu32m65ft9cebq27uanmg8jjs7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRIr1dzBIqDqEXt10q_B0Pj7QrxsTBDXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524224857239-g32gqhu32m65ft9cebq27uanmg8jjs7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

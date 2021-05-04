@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/donuts"
+        android:layout_width="334dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="40dp"
+        android:text="Droid Desserts"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imdonuts"
+        android:layout_width="114dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        android:onClick="donuts"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/donuts"
+        app:srcCompat="@drawable/donuts" />
+
+    <TextView
+        android:id="@+id/icecreem"
+        android:layout_width="194dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="64dp"
+        android:text="donuts are Glazed and and sprinkled with candy"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toEndOf="@+id/imdonuts"
+        app:layout_constraintTop_toBottomOf="@+id/donuts" />
+
+    <ImageView
+        android:id="@+id/imice"
+        android:layout_width="151dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="56dp"
+        android:onClick="ice"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imdonuts"
+        app:srcCompat="@drawable/ice" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="197dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="104dp"
+        android:text="Ice cream sandwiches has chocolate wafers and vanilla feelings "
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toEndOf="@+id/imice"
+        app:layout_constraintTop_toBottomOf="@+id/icecreem" />
+
+    <ImageView
+        android:id="@+id/imfroyo"
+        android:layout_width="116dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="44dp"
+        android:onClick="froyo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imice"
+        app:layout_constraintVertical_bias="0.031"
+        app:srcCompat="@drawable/froyo" />
+
+    <TextView
+        android:id="@+id/froyo"
+        android:layout_width="224dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="88dp"
+        android:text="Froyo is premium self-serve frozen yogurt"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toEndOf="@+id/imfroyo"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="77dp"
+        android:layout_height="67dp"
+        android:clickable="true"
+        android:onClick="go"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/froyo"
+        app:layout_constraintVertical_bias="0.567"
+        app:srcCompat="@android:drawable/ic_menu_today" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

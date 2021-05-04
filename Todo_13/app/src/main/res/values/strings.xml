@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Todo_12</string>
+    <string-array name="labels_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Others</item>
+    </string-array>
+</resources>
