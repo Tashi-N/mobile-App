@@ -1,14 +1,14 @@
-package edu.gcit.sherigcare.ui.slideshow;
+package edu.gcit.sherigcare;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class parents extends AppCompatActivity {
+public class Teacher extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_parents);
+        setContentView(R.layout.activity_teacher);
     }
 }
