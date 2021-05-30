@@ -6,4 +6,136 @@
     android:layout_height="match_parent"
     tools:context=".TeacherRegister">
 
+
+    <ImageView
+        android:id="@+id/imageRlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".25"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logosherig" />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="bold"
+        android:layout_width="181dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Register Teacher"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageRlogo" />
+
+    <EditText
+        android:id="@+id/teacherrId"
+        android:layout_width="326dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:drawableEnd="@drawable/ic_admin"
+        android:ems="10"
+        android:hint="TeacherID"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <EditText
+        android:id="@+id/teachersub"
+        android:layout_width="326dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="15dp"
+        android:drawableEnd="@drawable/book"
+        android:ems="10"
+        android:hint="SUBJECT"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacherrCPword" />
+
+    <EditText
+        android:id="@+id/teacherrEmail"
+        android:layout_width="326dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="12dp"
+        android:drawableEnd="@drawable/emailvector"
+        android:ems="10"
+        android:hint="@string/uemail"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacherrId" />
+
+    <EditText
+        android:id="@+id/teacherrPword"
+        android:layout_width="326dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:drawableEnd="@drawable/lockvector"
+        android:ems="10"
+        android:hint="@string/passwordU"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacherrEmail" />
+
+    <EditText
+        android:id="@+id/teacherclass"
+        android:layout_width="326dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:drawableEnd="@drawable/ic_admin"
+        android:ems="10"
+        android:hint="CLASS"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teachersub" />
+
+    <EditText
+        android:id="@+id/teacherrCPword"
+        android:layout_width="326dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="60dp"
+        android:drawableEnd="@drawable/lockvector"
+        android:ems="10"
+        android:hint="CONFIRM PASSWORD"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacherrEmail" />
+
+    <Button
+        android:id="@+id/teacherregbtn"
+        android:layout_width="211dp"
+        android:layout_height="47dp"
+        android:background="@drawable/regbtn"
+        android:text="REGISTER"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/teal_700"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacherclass"
+        app:layout_constraintVertical_bias="0.234" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="edu.gcit.sherigcare.ui.home.HomeFragment"
+        android:label="@string/admin"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_parent"
+        android:name="edu.gcit.sherigcare.ui.gallery.GalleryFragment"
+        android:label="@string/menu_parent"
+        tools:layout="@layout/fragment_gallery"/>
+
+    <fragment
+        android:id="@+id/nav_teacher"
+        android:name="edu.gcit.sherigcare.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_teacher"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_changePword"
+        android:name="edu.gcit.sherigcare.nav_changePword"
+        android:label="Change Password"
+        tools:layout="@layout/fragment_nav_change_pword" />
+
+
+</navigation>

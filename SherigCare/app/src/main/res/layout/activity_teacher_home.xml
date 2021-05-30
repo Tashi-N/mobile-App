@@ -6,4 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".TeacherHome">
 
+    <Button
+        android:id="@+id/retn"
+        android:layout_width="208dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="RESET PASSWORD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="235dp"
+        android:layout_height="88dp"
+        android:text="Teacher"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="268dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

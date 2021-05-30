@@ -6,4 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".ParentHome">
 
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="217dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="192dp"
+        android:text="Parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/rebtn"
+        android:layout_width="208dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="RESET PASSWORD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintVertical_bias="0.872" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">ཤེས་རིགCare</string>
+    <string name="user_idMainAct">User ID</string>
+    <string name="login_mainActivity">LOGIN</string>
+    <string name="passwordMainActivity">Password</string>
+    <string name="loginasMain">LOGIN AS</string>
+    <string name="forgot_passwordMainActivity">Forgot Password?</string>
+    <string name="title_activity_admin_dash_board">AdminDashBoard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Logout</string>
+    <string name="menu_addUser">ADD USER</string>
+    <string name="menu_delUser">DELETE USER</string>
+    <string name="menu_parent">ParentData</string>
+    <string name="menu_teacher">TeacherData</string>
+    <string name="admin">ADMIN</string>
+    <string name="registerOpt">Register User</string>
+    <string name="deleteOpt">Delete User</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="change_passwordfrag">Change Password</string>
+    <string name="user_id">USER ID</string>
+    <string name="uemail">EMAIL</string>
+    <string name="passwordU">PASSWORD</string>
+    <string name="registerbtn">Register</string>
+    <string name="register_usertitle">Register Parent</string>
+    <string name="delete_usertitle">DELETE USER</string>
+    <string name="deletebtn">Delete</string>
+    <string name="email_idf">EMAIL ID</string>
+    <string name="forgot_password">FORGOT PASSWORD</string>
+
+    <string-array name="userType">
+        <item>Admin</item>
+        <item>Parent</item>
+        <item>Teacher</item>
+    </string-array>
+
+</resources>
